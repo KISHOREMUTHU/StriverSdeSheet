@@ -1,8 +1,8 @@
-// DAdiviser 12 
+// DAY 12 
 // QUESTION NO 3:  Division without using division operator(/)
-// Question Edividendplanation:
-// diviserOU WILL BE PROVIDED WITH TWO NUMBERS THE dividend AND THE DIVISOR 
-// FOR EdividendAMPLE :
+// Question Explanation:
+// YOU WILL BE PROVIDED WITH TWO NUMBERS THE dividend AND THE DIVISOR 
+// FOR EXAMPLE :
 // dividend=10
 // divisor=3
 // WE NEED TO FIND dividend/divisor i.e> 10/3 =3 (JUST INTEGER DIVISION IS ENOUGH NO NEED TO PROVIDE 3.333)
@@ -19,9 +19,9 @@ int division(int dividend,int divisor)
     return ans;
 }
 //the above solution doesn't work when the number is a negative number
-/*Solution analdivisersis:
- Time compledividendsitdiviser: O(dividend) 
- Audividendillardiviser space compledividendsitdiviser: O(1)
+/*Solution analysis:
+ Time complexsity: O(dividend) 
+ Auxillary space complexsity: O(1)
  */
 //==============================================================================
 //Optial approach
@@ -84,9 +84,9 @@ dividend = (quotient) * divisor + remainder
 answer= 2^3 + 2^1 + 2^0; //quotient 
 
 //The above solution works fine and handles all the edge case 
-/*Solution analdivisersis:
- Time compledividendsitdiviser: O(log(dividend)) 
- Audividendillardiviser space compledividendsitdiviser: O(1)
+/*Solution analysis:
+ Time complexsity: O(log(dividend)) 
+ Auxillary space complexsity: O(1)
  */
 
 
